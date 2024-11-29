@@ -7,3 +7,4 @@ keras
 opencv-python==4.8.0.76
 scikit-learn==1.2.2
 jupyter==1.0.0
+tqdm
