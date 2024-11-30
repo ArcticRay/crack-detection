@@ -4,4 +4,4 @@ __pycache__/
 data/raw/
 data/processed/
 models/
-outputs/
+outputs/history.npy

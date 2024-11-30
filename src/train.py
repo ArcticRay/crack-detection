@@ -55,7 +55,7 @@ def train():
     # Train the model
     history = model.fit(
         datagen.flow(X_train, y_train, batch_size=32),
-        epochs=2, # Aus Testzwecken weniger
+        epochs=20, # Aus Testzwecken weniger
         validation_data=(X_val, y_val),
         callbacks=[checkpoint, early_stop]
     )

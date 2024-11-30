@@ -2,26 +2,15 @@
 
 ![Project Banner](outputs/sample_images.png)
 
-## Table of Contents
+## 📄 Description
 
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Data Preprocessing](#data-preprocessing)
-  - [Exploratory Data Analysis](#exploratory-data-analysis-eda)
-  - [Model Training](#model-training)
-  - [Model Evaluation](#model-evaluation)
-  - [Web Application (Optional)](#web-application-optional)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+**Surface Crack Detection** is a machine learning project aimed at automatically identifying cracks on surface images.
 
-## Introduction
+## 🚀 Features
 
-Surface crack detection is a critical task in structural engineering and maintenance, ensuring the safety and longevity of infrastructures. This project utilizes a Convolutional Neural Network (CNN) to automatically detect and classify cracks in surface images.
+- **Data Preprocessing:** Loading, resizing, and normalizing images.
+- **Model Training:** Development and training of a CNN for image classification.
+- **Model Evaluation:** Assessing model performance with metrics and visualizations.
 
 ## Dataset
 
