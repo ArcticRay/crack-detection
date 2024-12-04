@@ -21,7 +21,7 @@ def train():
     
     # Build the model
     model = build_model()
-    model.summary()
+    model.summary() # Check whether the model is set up correctly
     
     # Define callbacks
     checkpoint = ModelCheckpoint('models/best_model.keras', 
@@ -36,6 +36,7 @@ def train():
                                verbose=1)
     
     # Define data augmentation
+    # Expands the training data through various transformations to increase the robustness of the model
     datagen = ImageDataGenerator(
         rotation_range=20,
         width_shift_range=0.2,
@@ -47,6 +48,7 @@ def train():
     )
     
     # Fit the data generator on training data
+    # For Z-score normalization or other statistical transformations
     datagen.fit(X_train)
     
     # Create outputs directory if it doesn't exist
@@ -55,7 +57,7 @@ def train():
     # Train the model
     history = model.fit(
         datagen.flow(X_train, y_train, batch_size=32),
-        epochs=20, # Aus Testzwecken weniger
+        epochs=20, # Aus Testzwecken 20
         validation_data=(X_val, y_val),
         callbacks=[checkpoint, early_stop]
     )

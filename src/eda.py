@@ -3,11 +3,11 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
-import pandas as pd
+
 
 def load_sample_images(data_dir, label_name, num_samples=5):
     """
-    Loads a specified number of sample images from a given label directory.
+    Loads a specified number of sample images (5) from a given label directory.
 
     Args:
         data_dir (str): Path to the directory containing raw image data.
@@ -85,6 +85,8 @@ def plot_label_distribution():
     plt.ylabel('Count')
     plt.savefig('outputs/validation_label_distribution.png')
     plt.show()
+
+
 
 def main():
     """
