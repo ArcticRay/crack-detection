@@ -19,6 +19,7 @@ The dataset comprises images categorized into two classes:
 - **Positive:** Images containing surface cracks.
 - **Negative:** Images without surface cracks.
 
-Özgenel, Çağlar Fırat (2019), “Concrete Crack Images for Classification”, Mendeley Data, V2, doi: 10.17632/5y9wdsg2zt.2
+Özgenel, Çağlar Fırat (2019), “Concrete Crack Images for Classification”, Mendeley Data, V2,
+doi: http://dx.doi.org/10.17632/5y9wdsg2zt.2x
 
 <!-- https://www.kaggle.com/datasets/arunrk7/surface-crack-detection>
