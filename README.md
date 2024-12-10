@@ -11,6 +11,7 @@
 - **Data Preprocessing:** Loading, resizing, and normalizing images.
 - **Model Training:** Development and training of a CNN for image classification.
 - **Model Evaluation:** Assessing model performance with metrics and visualizations.
+- **Image Classification** Uploading and classifying
 
 ## Dataset
 

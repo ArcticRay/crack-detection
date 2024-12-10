@@ -5,3 +5,5 @@ data/raw/
 data/processed/
 models/
 outputs/history.npy
+test/
+.DS_STORE
