@@ -6,7 +6,8 @@
 
 **Surface Crack Detection** is a machine learning project aimed at automatically identifying cracks on surface images.
 
-_Confusion Matrix_
+**Confusion Matrix**
+
 ![Project Banner](outputs/confusion_matrix.png)
 
 ## 🚀 Features
