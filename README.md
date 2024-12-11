@@ -6,6 +6,10 @@
 
 **Surface Crack Detection** is a machine learning project aimed at automatically identifying cracks on surface images.
 
+**Confusion Matrix**
+
+![Project Banner](outputs/confusion_matrix.png)
+
 ## 🚀 Features
 
 - **Data Preprocessing:** Loading, resizing, and normalizing images.
@@ -24,3 +28,14 @@ The dataset comprises images categorized into two classes:
 [doi: http://dx.doi.org/10.17632/5y9wdsg2zt.2x](https://data.mendeley.com/datasets/5y9wdsg2zt/2)
 
 <!-- https://www.kaggle.com/datasets/arunrk7/surface-crack-detection>
+
+<!-- Ausführungsschritte
+    - source crack_env/bin/activate
+    - python3 src/data_preprocessing.py
+    - python3 src/eda.py
+    - python3 src/model.py
+    - python3 src/train.py
+    - python3 src/evaluate.py
+    - python3 src/predict.py test/TestCrack.jpeg
+    - python3 src/predict.py test/TestCrack2.jpg
+>
