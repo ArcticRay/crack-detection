@@ -27,7 +27,7 @@ The dataset comprises images categorized into two classes:
 
 <!-- Ausführungsschritte
     - source crack_env/bin/activate
-    - python3 src/data_preprocessing.pay
+    - python3 src/data_preprocessing.py
     - python3 src/eda.py
     - python3 src/model.py
     - python3 src/train.py
