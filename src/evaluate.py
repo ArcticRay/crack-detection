@@ -19,6 +19,9 @@ def evaluate():
     
     # Load the best saved model
     model = load_model('models/best_model.keras')
+
+    # Check last layer name for explainability
+    model.summary();
     
     # Evaluate the model on validation data
     loss, accuracy = model.evaluate(X_val, y_val, verbose=0)

@@ -16,6 +16,12 @@
 - **Model Training:** Development and training of a CNN for image classification.
 - **Model Evaluation:** Assessing model performance with metrics and visualizations.
 - **Image Classification** Uploading and classifying
+- **Explainability (LIME):** Generating visual explanations showing which regions of an image the model relies on when predicting cracks.
+
+**Example LIME Explanation**  
+Below is a sample visualization using LIME, highlighting important superpixels contributing to the “Positive” (crack) classification:
+
+![LIME Explanation](outputs/lime_explanation.png)
 
 ## Dataset
 
