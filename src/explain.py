@@ -15,9 +15,13 @@ from tensorflow.keras.models import load_model
 
 # Configuration
 MODEL_PATH = 'models/best_model.keras'  # trained grayscale image
-IMG_PATH = 'data/raw/Positive/00004.jpg'  # test image
+IMG_PATH = 'data/raw/Positive/00023.jpg'  # test image
 IMG_SIZE = (128, 128)
 CLASS_INDEX = 1  # 0=Negative, 1=Positive (Assumption: model has 1 output neuron => p(pos))
+
+OUTPUT_DIR = 'outputs/lime'  
+OUTPUT_FILENAME = 'lime_explanation.png'  # file name for the saved figure
+os.makedirs(OUTPUT_DIR, exist_ok=True)    # make sure directory exists
 
 
 # LIME-Helper
@@ -121,4 +125,8 @@ if __name__ == "__main__":
     plt.axis('off')
 
     plt.tight_layout()
+    output_path = os.path.join(OUTPUT_DIR, OUTPUT_FILENAME)
+    plt.savefig(output_path, dpi=150)
+    print(f"LIME explanation saved to: {output_path}")
+
     plt.show()
