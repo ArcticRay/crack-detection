@@ -21,7 +21,7 @@
 **Example LIME Explanation**  
 Below is a sample visualization using LIME, highlighting important superpixels contributing to the “Positive” (crack) classification:
 
-![LIME Explanation](outputs/lime_explanation.png)
+![LIME Explanation](outputs/lime/lime_explanation.png)
 
 ## Dataset
 
