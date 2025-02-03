@@ -44,4 +44,5 @@ The dataset comprises images categorized into two classes:
     - python3 src/evaluate.py
     - python3 src/predict.py test/TestCrack.jpeg
     - python3 src/predict.py test/TestCrack2.jpg
+    - python3 src/explain.py test/TestCrack.jpeg
 >

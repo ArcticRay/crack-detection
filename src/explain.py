@@ -17,7 +17,7 @@ from tensorflow.keras.models import load_model
 MODEL_PATH = 'models/best_model.keras'  # trained grayscale image
 IMG_PATH = 'data/raw/Positive/00023.jpg'  # test image
 IMG_SIZE = (128, 128)
-CLASS_INDEX = 1  # 0=Negative, 1=Positive (Assumption: model has 1 output neuron => p(pos))
+CLASS_INDEX = 1  # 0=Negative, 1=Positive 
 
 OUTPUT_DIR = 'outputs/lime'  
 OUTPUT_FILENAME = 'lime_explanation.png'  # file name for the saved figure
@@ -87,7 +87,7 @@ if __name__ == "__main__":
         kernel_size=4,
         max_dist=200,
         ratio=0.2,
-        convert2lab=False  # <-- Don't get error "Only RGB images can be converted to Lab space"
+        convert2lab=False  
     )
 
     # calculate LIME
